@@ -13,7 +13,7 @@
 
   <!--link a hoja de css-->
 
-  <link rel="stylesheet" href="../css/style.css">
+  <link rel="stylesheet" href="../css/estilos.css">
 
 </head>
 
@@ -27,21 +27,33 @@
 
    <!--menu de navegacion-->
 
-   <nav>
-        <ul>
-            <li> <a href=" ../pages/productos.html">Productos</a></li>
-  <li> <a href="../pages/datos.html">Datos Importantes</a></li>
-  <li> <a href="../pages/galeria.html">Galeria</a></li>
-  <li> <a href="../pages/contacto.html">Contactos</a></li>
-  </ul>
+   <nav class="menudenavegacion">
+
+    <ul>
+      <li> <a href="../pages/productos.html">Productos</a></li>
+      <li> <a href="../pages/datos.html">Datos Importantes</a></li>
+      <li> <a href="../pages/galeria.html">Galeria</a></li>
+      <li> <a href="../pages/contacto.html">Contactos</a></li>
+    </ul>
   </nav>
+
 </header>
 
 <!--inicio de main-->
 
 <main>
+<div>
+  <h1>
+    Galeria
+  </h1>
+</div>
+<div>
+  <p class="parrafodatos">
+    una pequeña exposicion de algunas de nuestras mejores piezas a lo largo de los años de trabajo y decicacion que llevamos en nuestro emprendimiento
+  </p>
+</div>
   <section class="container d-flex justify-content-center">
-    <div id="carouselExample" class="carousel slide" data-bs-ride="carousel">
+    <div id="carouselExample" class="carousel slide carrusel-ajustado" data-bs-ride="carousel">
       <div class="carousel-inner">
         <div class="carousel-item active">
           <img src="../media-ceramica/Imagen1.jpeg" class="d-block w-100 img-fluid" alt="pieza 1">

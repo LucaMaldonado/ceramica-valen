@@ -13,7 +13,7 @@
 
   <!--link a hoja de css-->
 
-  <link rel="stylesheet" href="../css/style.css">
+  <link rel="stylesheet" href="../css/estilos.css">
 
 </head>
 
@@ -30,66 +30,65 @@
 
    <!--menu de navegacion-->
 
-   <nav>
-        <ul>
-            <li> <a href=" ../pages/productos.html">Productos</a></li>
-    <li> <a href="../pages/datos.html">Datos Importantes</a></li>
-    <li> <a href="../pages/galeria.html">Galeria</a></li>
-    <li> <a href="../pages/contacto.html">Contactos</a></li>
-    </ul>
+   <nav class="menudenavegacion">
+
+      <ul>
+        <li> <a href="../pages/productos.html">Productos</a></li>
+        <li> <a href="../pages/datos.html">Datos Importantes</a></li>
+        <li> <a href="../pages/galeria.html">Galeria</a></li>
+        <li> <a href="../pages/contacto.html">Contactos</a></li>
+      </ul>
     </nav>
+
   </header>
+
+  <div class="textodatos">
+    <h1>Preguntas frecuentes de nuestros clientes</h1>
+  </div>
+
   <main>
+
+    <p class="parrafodatos">
+      Cada pieza está hecha a mano con dedicación y cuidado, reflejando la belleza de lo hecho a medida. Realizamos pedidos personalizados por encargo, adaptándonos a tus gustos y necesidades. Hacemos envíos directamente a tu domicilio, para que disfrutes de tu cerámica única sin moverte de casa.
+    </p>
 
     <div class="accordion" id="accordionExample">
       <div class="accordion-item">
         <h2 class="accordion-header">
-          <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
+          <button class="accordion-button fs-4" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
             aria-expanded="true" aria-controls="collapseOne">
-            Accordion Item #1
+            ¿Cada pieza de cerámica es única?
           </button>
         </h2>
         <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
-          <div class="accordion-body">
-            <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin
-            adds the appropriate classes that we use to style each element. These classes control the overall
-            appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom
-            CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the
-            <code>.accordion-body</code>, though the transition does limit overflow.
+          <div class="accordion-body fs-4">
+            Sí. Al ser elaboradas de forma artesanal, cada pieza de cerámica presenta ligeras variaciones en forma, color o textura, lo que las hace únicas e irrepetibles. Estas diferencias no son defectos, sino una parte esencial de su encanto y autenticidad.
           </div>
         </div>
       </div>
       <div class="accordion-item">
         <h2 class="accordion-header">
-          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+          <button class="accordion-button collapsed fs-4" type="button" data-bs-toggle="collapse"
             data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-            Accordion Item #2
+            ¿La cerámica es resistente?
           </button>
         </h2>
         <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
-          <div class="accordion-body">
-            <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse
-            plugin adds the appropriate classes that we use to style each element. These classes control the overall
-            appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom
-            CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the
-            <code>.accordion-body</code>, though the transition does limit overflow.
+          <div class="accordion-body fs-4">
+            La cerámica, cuando está bien cocida y esmaltada, es muy resistente para un uso cotidiano. Sin embargo, sigue siendo un material delicado ante caídas o golpes fuertes. Se recomienda manipular las piezas con cuidado para conservarlas en perfecto estado.
           </div>
         </div>
       </div>
       <div class="accordion-item">
         <h2 class="accordion-header">
-          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+          <button class="accordion-button collapsed fs-4" type="button" data-bs-toggle="collapse"
             data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-            Accordion Item #3
+            ¿Puedo usar productos de cerámica en el microondas o lavavajillas?
           </button>
         </h2>
         <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
-          <div class="accordion-body">
-            <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin
-            adds the appropriate classes that we use to style each element. These classes control the overall
-            appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom
-            CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the
-            <code>.accordion-body</code>, though the transition does limit overflow.
+          <div class="accordion-body fs-4">
+            Depende del tipo de cerámica y del acabado. Muchas piezas esmaltadas son aptas para microondas y lavavajillas, pero siempre es recomendable consultar las indicaciones específicas de cada producto. Para prolongar su vida útil, se aconseja lavarlas a mano con agua tibia y jabón suave.
           </div>
         </div>
       </div>
